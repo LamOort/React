@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 const SongDetail = ({ song }) => {
     if (!song){
-        return <dic>Please select a song</dic>
+        return <div>Please select a song</div>
     }
     return (
     <div>
